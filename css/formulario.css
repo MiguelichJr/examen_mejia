@@ -1,0 +1,46 @@
+body {
+  background: skyblue;
+  width: 500px;
+  height: 300px;
+  padding-left: 130px; }
+  body div {
+    padding-left: 25px; }
+    body div h1 {
+      color: white; }
+    body div label {
+      color: white; }
+    body div button {
+      float: center;
+      border-radius: 5px; }
+  body table {
+    width: 570px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 12pt;
+    border-radius: 5px; }
+    body table th {
+      vertical-align: top;
+      text-align: center;
+      border: 1px solid #D4D7D7;
+      padding-left: 5px;
+      background: blue;
+      font-size: 14px;
+      color: white; }
+    body table td {
+      color: black; }
+    body table tr {
+      text-align: center;
+      border: 1px solid #D4D7D7;
+      padding-left: 5px;
+      background: white;
+      font-size: 14px;
+      color: white;
+      height: 10px; }
+  body footer label {
+    float: right; }
+  body footer input {
+    float: right; }
+
+/*# sourceMappingURL=formulario.css.map */

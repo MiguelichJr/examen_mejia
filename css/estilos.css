@@ -1,0 +1,39 @@
+body {
+  background: gray;
+  padding-left: 240px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  body div {
+    width: 900px;
+    height: 650px;
+    background-color: white;
+    padding-left: 19px;
+    padding-top: 10px;
+    padding-right: 10px; }
+    body div header {
+      background: red;
+      width: 890px;
+      height: 100px; }
+    body div nav {
+      background: orange;
+      width: 860px;
+      height: 35px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px; }
+      body div nav button {
+        width: 167px;
+        height: 30px; }
+      body div nav button:focus {
+        background: yellow; }
+    body div main {
+      width: 850px;
+      height: 290px;
+      background: white;
+      padding-left: 40px;
+      padding-top: 40px; }
+      body div main iframe {
+        width: 800px;
+        height: 450px; }
+
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+</head>
+<body>
+	<div id="marcoformulario">
+	<h1 style="text-align: center">Venta de Productos</h1>
+	<hr>
+	<div id="form">	
+		<label>N°</label> 
+		<input maxlength="6" type="text" id="codigo"><br>
+		<label>Nombre:</label> 
+		<input type="text" id="nombre">
+		<td><label>Fecha:</label> <input type="date" id="fecha"><br>
+		</td>
+
+		<tr >
+			<label>Productos:</label>
+			<td>
+				<select id="producto">
+					<option value= "Laptop"  >Laptop</option>
+					<option value= "Mouse" >Mouse</option>
+					<option value= "Impresora" >Impresora</option>
+					<option value= "Audifonos" >Audifonos</option>
+					<option value= "Procesador" >Procesador</option>
+				</select>
+			</td>
+		</tr>
+		<label>Cantidad:</label> 
+		<input type="text" id="cantidad"><br>
+		<label>Precio:</label> 
+		<input type="text" id="precio"><br>
+		<button onclick="agregar()" style="float: center">Agregar</button>
+		<button onclick="modificar()" style="float: center" >Modificar</button>
+	
+	</div>
+	<table id="data">
+		<tr>
+			<th>#</th>
+			<th>N°</th>
+			<th>Nombre</th>
+			<th>Fecha</th>
+			<th>Producto</th>
+			<th>Cantidad</th>
+			<th>Total Soles</th>
+			<th colspan="1">Acciones</th>
+		</tr>
+	    
+	</table>
+
+	<footer>
+		<hr>
+		<input type="text" id="total">
+		<label>Total:</label>
+
+		<input type="text" id="igv">
+		<label>IGV:</label>
+		
+
+		<input type="text" id="totalpago">
+		<label>Total a pagar:</label>
+		<br>
+	</footer>
+</body>
+<script src="js/script.js"></script>
+</html>
